@@ -1,3 +1,9 @@
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[11]:
+
+
 def string_reverse(s):
     #First I want to check if input for 's' is a string
     if type(s) == str:
@@ -6,19 +12,22 @@ def string_reverse(s):
     else:
     #If 's' is not a string; I want to print a message saying that 's' is not a string
         print('This is not a string')
-        
-    """
-    Task 1
-    - Create a function that reverses a given string (s).
-    - s must be a string.
-    - Return the reversed string.
-    """
-    return
 
 
-# Task 2
-# Invoke the function "string_reverse" using the following scenarios:
-# - "Hello World"
-# - "Python"
+# In[12]:
+
+
 string_reverse("Hello World")
+
+
+# In[13]:
+
+
 string_reverse("Python")
+
+
+# In[ ]:
+
+
+
+
